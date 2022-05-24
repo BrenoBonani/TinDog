@@ -1,0 +1,221 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.container-fluid {
+    padding: 3% 15% 12%;
+
+}
+
+.classdog {
+    position: relative;
+}
+
+
+.p1 {
+    color: #8f8f8f;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-img {
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card-title {
+    font-size: 2rem;
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.title {
+    position: absolute;
+}
+
+.footer-brands {
+    margin: 20px 10px;
+    line-height: 1.5;
+    color: black;
+}
+
+.h3-cta {
+    padding: 7% 15%;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* ID CHANGES */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#features {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    padding: 7% 15%;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 120px 50px;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 50px 40px;
+    font-size: 0.7rem;
+}
+
+/* FEATURE ICONS */
+
+.fa-feature {
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.fa-feature:hover {
+    color: #ff4c68
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Download Buttons */
+
+.btn1 {
+    margin: 16px;
+}
+
+.download-button {
+    padding-right: 24px;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    left: 8rem;
+    top: 2rem;
+}
+
+/* @MEDIA QUERY */
+
+
+
+@media (max-width: 992px) {
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+
+    }
+
+    #title {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 550x) {
+
+    .h3-cta {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+/* Para rodar uma imagem, basta usar "transform: rotate()". Funciona com 90deg, 180deg, -90deg (para colocar ao contrário). 
+É possível usar :hover para fazer icones ou botões mudarem de cor ao passar o mouse. Além disso, é possível colocar uma imagem
+em formato circular com "border-radius: 100%".
+
+Para colocar os botões mais distantes do carrosel de slides, é só colocar um pouco de padding (preenchimento) na classe "carousel-
+item". 
+
+Outra ferramenta interessante é o "z-index" que por padrão de elementos é zero. Mas é possível mudar ele para 1 e fazer com que
+um elemento, fique sobreposto o outro e -1 para fazer um elemento fica "atrás" de outro. Lembrar que só funciona se você tiver
+definido uma posição (position) para os elementos (não pode ser estático).*/
