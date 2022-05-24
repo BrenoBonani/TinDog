@@ -203,19 +203,3 @@ h3 {
     }
 
 }
-
-
-
-
-
-
-/* Para rodar uma imagem, basta usar "transform: rotate()". Funciona com 90deg, 180deg, -90deg (para colocar ao contrário). 
-É possível usar :hover para fazer icones ou botões mudarem de cor ao passar o mouse. Além disso, é possível colocar uma imagem
-em formato circular com "border-radius: 100%".
-
-Para colocar os botões mais distantes do carrosel de slides, é só colocar um pouco de padding (preenchimento) na classe "carousel-
-item". 
-
-Outra ferramenta interessante é o "z-index" que por padrão de elementos é zero. Mas é possível mudar ele para 1 e fazer com que
-um elemento, fique sobreposto o outro e -1 para fazer um elemento fica "atrás" de outro. Lembrar que só funciona se você tiver
-definido uma posição (position) para os elementos (não pode ser estático).*/
